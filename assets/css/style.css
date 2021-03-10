@@ -188,6 +188,7 @@
     padding-left: var(--space-0);
     padding-bottom: var(--space-5);
     padding-right: var(--space-0);
+    float: left;
 }
 .email-image{
     display: none;
@@ -258,11 +259,37 @@ input,textarea{
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
 
+    .header-middle{
+        padding: var(--padding-0);
+        margin-left: -15px;
+      
+    }
+    
     .header-search{
         float: left;
         height: 36px;
         margin: 18px 18px 12px 0;
-        width: 80%;
+        width: 60%;
+    }
+
+    .logo{
+        padding-bottom: var(--space-0);
+        margin-bottom: -20px;
+    }
+
+    .cart-box-wrapper{
+        padding:var(--padding-2);
+        float: left;
+        margin-left: -25px;
+    }
+    .cart-info{
+        display: block;
+        padding: var(--padding-1) var(--padding-5);
+    }
+    .cart-box-wrapper > a{
+        text-decoration: none;
+        font-size: var(--font-3);
+        color: var(--white);
     }
     
 }
