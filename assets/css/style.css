@@ -284,14 +284,29 @@ input,textarea{
     }
     .cart-info{
         display: block;
-        padding: var(--padding-1) var(--padding-5);
+        padding: var(--padding-1) var(--padding-2);
     }
     .cart-box-wrapper > a{
         text-decoration: none;
         font-size: var(--font-3);
         color: var(--white);
     }
-    
+    img.cart-icon {
+        display: inline-block;
+        height: var(--space-5);
+        width: var(--space-5);
+        padding-bottom: 0px;
+        margin-bottom: -5px;
+    }
+    span.cart-item-quantity {
+        display: inline-block;
+        background: #85979d;
+        border-radius: 50%;
+        width: var(--space-5);
+        font-size: var(--font-2);
+        margin-left: var(--margin-1);
+        line-height: var(--font-4);
+    }
 }
 
 @media only screen and (min-width: 768px) {
